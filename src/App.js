@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import Tableadd from "./components/functional/table/table.js"
+import Formsadd from "./components/functional/forms/forms.js"
+import List from "./components/functional/lists/list.js"
+const App=()=>{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+ <div>
+<h2>hello world</h2>
+<Tableadd></Tableadd>
+<Formsadd></Formsadd>
+<List></List>
+</div>
+  )
 }
-
-export default App;
+export default App
